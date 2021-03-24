@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <title>Balderella</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("https://i.imgur.com/fsyrScY.jpeg");
+      background-size: cover;
+      background-position: center;
+      color: #73c3c3a;
+      font-family: helvetica;
+    }
+    p {
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: #c3d86a;
+      color: white;
+    }
+    img{
+      border-radius:50%;
+      border: solid 10px #c3d86a
+    }
+  </style>
+</head>
+<body>
+  <img src="https://i.imgur.com/oPXo3klb.jpg">
+  <p>Hi! I'm Alice, a Sydney based accountant. Say hello!</p>
+  <input type="email" placeholder="Your email">
+  <input type="submit">
+</body>
